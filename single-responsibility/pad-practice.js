@@ -8,7 +8,6 @@ class Book {
 }
 
 class Invoice extends Book{
-    
     constructor(name, authorName, year, price, quantity) {
         super(name, authorName, year)
         this.price = price
